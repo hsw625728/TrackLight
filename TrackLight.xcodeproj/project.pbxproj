@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		589403391DD1811200D6AD86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 589403381DD1811200D6AD86 /* main.m */; };
+		5894033C1DD1811200D6AD86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5894033B1DD1811200D6AD86 /* AppDelegate.m */; };
+		5894033F1DD1811200D6AD86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5894033E1DD1811200D6AD86 /* ViewController.m */; };
+		589403421DD1811200D6AD86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589403401DD1811200D6AD86 /* Main.storyboard */; };
+		589403441DD1811200D6AD86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589403431DD1811200D6AD86 /* Assets.xcassets */; };
+		589403471DD1811200D6AD86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589403451DD1811200D6AD86 /* LaunchScreen.storyboard */; };
+		589403521DD1811200D6AD86 /* TrackLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 589403511DD1811200D6AD86 /* TrackLightTests.m */; };
+		5894035D1DD1811200D6AD86 /* TrackLightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5894035C1DD1811200D6AD86 /* TrackLightUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5894034E1DD1811200D6AD86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5894032C1DD1811200D6AD86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 589403331DD1811200D6AD86;
+			remoteInfo = TrackLight;
+		};
+		589403591DD1811200D6AD86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5894032C1DD1811200D6AD86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 589403331DD1811200D6AD86;
+			remoteInfo = TrackLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		589403341DD1811200D6AD86 /* TrackLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		589403381DD1811200D6AD86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5894033A1DD1811200D6AD86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5894033B1DD1811200D6AD86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5894033D1DD1811200D6AD86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5894033E1DD1811200D6AD86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		589403411DD1811200D6AD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		589403431DD1811200D6AD86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		589403461DD1811200D6AD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		589403481DD1811200D6AD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5894034D1DD1811200D6AD86 /* TrackLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		589403511DD1811200D6AD86 /* TrackLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackLightTests.m; sourceTree = "<group>"; };
+		589403531DD1811200D6AD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589403581DD1811200D6AD86 /* TrackLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5894035C1DD1811200D6AD86 /* TrackLightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackLightUITests.m; sourceTree = "<group>"; };
+		5894035E1DD1811200D6AD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		589403311DD1811200D6AD86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5894034A1DD1811200D6AD86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589403551DD1811200D6AD86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5894032B1DD1811200D6AD86 = {
+			isa = PBXGroup;
+			children = (
+				589403361DD1811200D6AD86 /* TrackLight */,
+				589403501DD1811200D6AD86 /* TrackLightTests */,
+				5894035B1DD1811200D6AD86 /* TrackLightUITests */,
+				589403351DD1811200D6AD86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		589403351DD1811200D6AD86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				589403341DD1811200D6AD86 /* TrackLight.app */,
+				5894034D1DD1811200D6AD86 /* TrackLightTests.xctest */,
+				589403581DD1811200D6AD86 /* TrackLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		589403361DD1811200D6AD86 /* TrackLight */ = {
+			isa = PBXGroup;
+			children = (
+				5894033A1DD1811200D6AD86 /* AppDelegate.h */,
+				5894033B1DD1811200D6AD86 /* AppDelegate.m */,
+				5894033D1DD1811200D6AD86 /* ViewController.h */,
+				5894033E1DD1811200D6AD86 /* ViewController.m */,
+				589403401DD1811200D6AD86 /* Main.storyboard */,
+				589403431DD1811200D6AD86 /* Assets.xcassets */,
+				589403451DD1811200D6AD86 /* LaunchScreen.storyboard */,
+				589403481DD1811200D6AD86 /* Info.plist */,
+				589403371DD1811200D6AD86 /* Supporting Files */,
+			);
+			path = TrackLight;
+			sourceTree = "<group>";
+		};
+		589403371DD1811200D6AD86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				589403381DD1811200D6AD86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		589403501DD1811200D6AD86 /* TrackLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				589403511DD1811200D6AD86 /* TrackLightTests.m */,
+				589403531DD1811200D6AD86 /* Info.plist */,
+			);
+			path = TrackLightTests;
+			sourceTree = "<group>";
+		};
+		5894035B1DD1811200D6AD86 /* TrackLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5894035C1DD1811200D6AD86 /* TrackLightUITests.m */,
+				5894035E1DD1811200D6AD86 /* Info.plist */,
+			);
+			path = TrackLightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		589403331DD1811200D6AD86 /* TrackLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 589403611DD1811200D6AD86 /* Build configuration list for PBXNativeTarget "TrackLight" */;
+			buildPhases = (
+				589403301DD1811200D6AD86 /* Sources */,
+				589403311DD1811200D6AD86 /* Frameworks */,
+				589403321DD1811200D6AD86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackLight;
+			productName = TrackLight;
+			productReference = 589403341DD1811200D6AD86 /* TrackLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5894034C1DD1811200D6AD86 /* TrackLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 589403641DD1811200D6AD86 /* Build configuration list for PBXNativeTarget "TrackLightTests" */;
+			buildPhases = (
+				589403491DD1811200D6AD86 /* Sources */,
+				5894034A1DD1811200D6AD86 /* Frameworks */,
+				5894034B1DD1811200D6AD86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5894034F1DD1811200D6AD86 /* PBXTargetDependency */,
+			);
+			name = TrackLightTests;
+			productName = TrackLightTests;
+			productReference = 5894034D1DD1811200D6AD86 /* TrackLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		589403571DD1811200D6AD86 /* TrackLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 589403671DD1811200D6AD86 /* Build configuration list for PBXNativeTarget "TrackLightUITests" */;
+			buildPhases = (
+				589403541DD1811200D6AD86 /* Sources */,
+				589403551DD1811200D6AD86 /* Frameworks */,
+				589403561DD1811200D6AD86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5894035A1DD1811200D6AD86 /* PBXTargetDependency */,
+			);
+			name = TrackLightUITests;
+			productName = TrackLightUITests;
+			productReference = 589403581DD1811200D6AD86 /* TrackLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5894032C1DD1811200D6AD86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HANSHAOWEN;
+				TargetAttributes = {
+					589403331DD1811200D6AD86 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5894034C1DD1811200D6AD86 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 589403331DD1811200D6AD86;
+					};
+					589403571DD1811200D6AD86 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 589403331DD1811200D6AD86;
+					};
+				};
+			};
+			buildConfigurationList = 5894032F1DD1811200D6AD86 /* Build configuration list for PBXProject "TrackLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5894032B1DD1811200D6AD86;
+			productRefGroup = 589403351DD1811200D6AD86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				589403331DD1811200D6AD86 /* TrackLight */,
+				5894034C1DD1811200D6AD86 /* TrackLightTests */,
+				589403571DD1811200D6AD86 /* TrackLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		589403321DD1811200D6AD86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589403471DD1811200D6AD86 /* LaunchScreen.storyboard in Resources */,
+				589403441DD1811200D6AD86 /* Assets.xcassets in Resources */,
+				589403421DD1811200D6AD86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5894034B1DD1811200D6AD86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589403561DD1811200D6AD86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		589403301DD1811200D6AD86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5894033F1DD1811200D6AD86 /* ViewController.m in Sources */,
+				5894033C1DD1811200D6AD86 /* AppDelegate.m in Sources */,
+				589403391DD1811200D6AD86 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589403491DD1811200D6AD86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589403521DD1811200D6AD86 /* TrackLightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589403541DD1811200D6AD86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5894035D1DD1811200D6AD86 /* TrackLightUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5894034F1DD1811200D6AD86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 589403331DD1811200D6AD86 /* TrackLight */;
+			targetProxy = 5894034E1DD1811200D6AD86 /* PBXContainerItemProxy */;
+		};
+		5894035A1DD1811200D6AD86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 589403331DD1811200D6AD86 /* TrackLight */;
+			targetProxy = 589403591DD1811200D6AD86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		589403401DD1811200D6AD86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				589403411DD1811200D6AD86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		589403451DD1811200D6AD86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				589403461DD1811200D6AD86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5894035F1DD1811200D6AD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		589403601DD1811200D6AD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		589403621DD1811200D6AD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrackLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.TrackLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		589403631DD1811200D6AD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrackLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.TrackLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		589403651DD1811200D6AD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrackLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.TrackLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackLight.app/TrackLight";
+			};
+			name = Debug;
+		};
+		589403661DD1811200D6AD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrackLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.TrackLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackLight.app/TrackLight";
+			};
+			name = Release;
+		};
+		589403681DD1811200D6AD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrackLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.TrackLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrackLight;
+			};
+			name = Debug;
+		};
+		589403691DD1811200D6AD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrackLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.TrackLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrackLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5894032F1DD1811200D6AD86 /* Build configuration list for PBXProject "TrackLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5894035F1DD1811200D6AD86 /* Debug */,
+				589403601DD1811200D6AD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		589403611DD1811200D6AD86 /* Build configuration list for PBXNativeTarget "TrackLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589403621DD1811200D6AD86 /* Debug */,
+				589403631DD1811200D6AD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		589403641DD1811200D6AD86 /* Build configuration list for PBXNativeTarget "TrackLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589403651DD1811200D6AD86 /* Debug */,
+				589403661DD1811200D6AD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		589403671DD1811200D6AD86 /* Build configuration list for PBXNativeTarget "TrackLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589403681DD1811200D6AD86 /* Debug */,
+				589403691DD1811200D6AD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5894032C1DD1811200D6AD86 /* Project object */;
+}
